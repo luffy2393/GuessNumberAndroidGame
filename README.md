@@ -5,5 +5,5 @@ The most challenging issue was the Locale changing because on api version >25 th
 The game does not work if you download these files , but the code works fine.
 You are welcome to copy-download the code and made your adjustments.
 It is a simple app to start android development so feel free to experiment with this.
-If you are an exrperienced adroid-developer i dont think you will find something useful here but it's your call.
+If you are an experienced adroid-developer i dont think you will find something useful here but it's your call.
 Just the first app to upload here so i am open to here any suggestion for better documentation.
