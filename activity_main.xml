@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sevi.myapplication.MainActivity"
+    android:background="#009688">
+
+    <RelativeLayout
+        android:layout_width="588dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/guessButton"
+            style="@style/basic_button"
+            android:text="@string/start"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="78dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/lang" />
+        <Button
+            android:id="@+id/resetButton"
+            style="@style/basic_button"
+            android:text="@string/reset"
+            android:layout_marginBottom="11dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/lang"
+            style="@style/basic_button"
+            android:layout_marginStart="18dp"
+            android:text="@string/language"
+            android:layout_alignBaseline="@+id/resetButton"
+            android:layout_alignBottom="@+id/resetButton"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/Test"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/guessButton"
+            android:layout_alignStart="@+id/guessButton" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/basic_text"
+            android:text="@string/guess"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginTop="76dp" />
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/basic_text"
+            android:text="@string/lifes"
+            android:layout_marginTop="84dp"
+            android:layout_below="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

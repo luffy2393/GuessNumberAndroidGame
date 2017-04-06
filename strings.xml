@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ΒΡΕΣ ΤΟΝ ΑΡΙΘΜΟ</string>
+    <string name="correctAnswer">Ο ΣΩΣΤΟΣ ΑΡΙΘΜΟΣ ΕΙΝΑΙ ΤΟ</string>
+    <string name="rule1">ΔΙΑΛΕΞΕ ΕΝΑΝ ΑΡΙΘΜΟ</string>
+    <string name="lif1">ΕΧΕΙΣ</string>
+    <string name="lif2">ΠΡΟΣΠΑΘΕΙΕΣ</string>
+    <string name="congrats">ΜΠΡΑΒΟ ΚΕΡΔΙΣΕΣ</string>
+    <string name="lost">ΔΥΣΤΥΧΩΣ ΕΧΑΣΕΣ</string>
+    <string name="smaller">ΔΙΑΛΕΞΕ ΜΕΓΑΛΥΤΕΡΟ ΑΡΙΘΜΟ</string>
+    <string name="bigger">ΔΙΑΛΕΞΕ ΜΙΚΡΟΤΕΡΟ ΑΡΙΘΜΟ</string>
+    <string name="rule2">ΠΑΡΑΚΑΛΩ ΔΙΑΛΕΞΕ ΕΝΑΝ ΑΡΙΘΜΟ ΑΠΟ ΤΟ 1 ΜΕΧΡΙ ΤΟ 100</string>
+    <string name="guess">ΔΕΝ ΕΠΙΛΕΞΑΤΕ ΑΡΙΘΜΟ</string>
+    <string name="reset">ΕΠΑΝΝΕΚΙΝΗΣΗ</string>
+    <string name="lifes">ΕΧΕΙΣ 5 ΠΡΟΣΠΑΘΙΕΣ</string>
+    <string name="start">ΠΑΜΕ</string>
+    <string name="language">ΑΓΓΛΙΚΑ</string>
+</resources>
